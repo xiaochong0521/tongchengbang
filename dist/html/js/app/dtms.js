@@ -1,0 +1,1 @@
+var btn=document.getElementById("dt1"),dtms=document.getElementById("dtms"),gdt=document.getElementById("gdt");dt1.onclick=function(){dtms.style.display="block"},gdt.onclick=function(){dtms.style.display="none"};var map=new AMap.Map("container",{resizeEnable:!0,zoom:11,center:[116.397428,39.90923]});
