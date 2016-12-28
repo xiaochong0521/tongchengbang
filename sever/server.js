@@ -19,7 +19,7 @@ req.header("content-type","application/json");
 		}
 	})
 })
-app.use(express.static('../src/html'))
+app.use(express.static('../dist/html'))
 	app.listen(3500,function(){
     console.log('启动')
     }
