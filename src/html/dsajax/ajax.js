@@ -56,12 +56,14 @@ xhr.onreadystatechange = function(){
 					li.appendChild(div2);
 					/*div2结束*/
 					var div3=document.createElement("div");
-					div3.innerHTML="进入地图"
+					var as=document.createElement("a");
+					as.setAttribute("href","shangdian.html"+"?"+i);
+					as.innerHTML="进入店铺";
+					div3.appendChild(as);
 					div3.setAttribute("class","jinru");
 					li.appendChild(div3);
 					/*div3结束*/
 					uls.appendChild(li);
-				/////	
 				}
 			
 				/////////
