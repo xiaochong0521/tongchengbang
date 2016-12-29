@@ -3,20 +3,22 @@ require.config({
 	baseUrl:'js/lib',
 	paths:{
 		
-		'dssy':'../app/dssy'
-		
+		'dssy':'../app/dssy',
+		'ajss':'../../dsajax/ajax'
 	},
 	shim:{
 		'dssy':{
 			exports:'aa'
+		},
+		'ajss':{
+			exports:'ajs'
 		}
-	
 	}
 })
-console.log(1224)
-requirejs(['dssy'],function(aa){
-	console.log(aa);
+
+requirejs(['dssy','ajss'],function(aa,ajs){
+	console.log(ajs)
 	aa();
-	
+	ajs();
 
 })

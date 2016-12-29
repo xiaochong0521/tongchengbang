@@ -1,3 +1,6 @@
+
+function ajs(){
+
 var baseURL="http://localhost:3500/data/1";
 var xhr =new XMLHttpRequest();
 xhr.open('GET',baseURL);
@@ -137,4 +140,7 @@ dt1.onclick=function(){
 }
 gdt.onclick=function(){
 	dtms.style.display="none";
+}
+
+//
 }
