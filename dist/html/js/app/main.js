@@ -1,1 +1,0 @@
-require.config({baseUrl:"js/lib",paths:{dssy:"../app/dssy",ajss:"../../dsajax/ajax"},shim:{dssy:{exports:"aa"},ajss:{exports:"ajs"}}}),requirejs(["dssy","ajss"],function(s,a){console.log(a),s(),a()});
